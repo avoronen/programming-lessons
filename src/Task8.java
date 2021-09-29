@@ -8,7 +8,7 @@ public class Task8 {
 
         int a = scanner.nextInt();
 
-        if ((a > 0) && (a < 4)) {
+        if ((a > 0) && (a <= 4)) {
             System.out.println("Первый интервал");
 
         } else if ((a > 5) && (a < 11)) {

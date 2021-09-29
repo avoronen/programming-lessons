@@ -3,7 +3,7 @@ public class Task2 {
 
         int x = 121;
 
-        int y = x ^ 2 + x * 21 - 4;
+        int y = x * x + x * 21 - 4;
 
         int z = y % 2;
 

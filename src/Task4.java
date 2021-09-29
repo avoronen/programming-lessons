@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Task4<a, b, c, div1, div2, div3> {
+public class Task4 {
     public static void main(String[] args) {
         int z = 0;
-        int y = 0;
+
 
         System.out.println("Введите число:");
 
@@ -17,14 +17,16 @@ public class Task4<a, b, c, div1, div2, div3> {
         double div2 = b % 2;
         double div3 = c % 2;
 
-        if ((div1 != 0)|(div2 != 0)|(div3 != 0)) {
-            z = ++y;
-       // } if ((div1 == 0)&&(div2 != 0)&&  (div3 == 0)){
-           // z = b++;
-       // } if ((div1 == 0)&&(div2 != 0)&&  (div3 != 0)) {
-         //   z = c++;
+        if (div1 != 0){
+            z++;
+        }
+        if (div2 != 0) {
+            z++;
         }
 
+        if (div3 != 0) {
+            z++;
+        }
 
         System.out.println(z);
     }

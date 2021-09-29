@@ -9,7 +9,7 @@ public class Task7 {
 
         int a = scanner.nextInt();
 
-        if ((a > 0) && (a < 65278)) {
+        if ((a >= 0) && (a <= 65278)) {
             char symbol = (char) a;
             System.out.println(a);
 
