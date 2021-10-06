@@ -6,8 +6,8 @@ public class Task13 {
 
         int i;
 
-        for (i = 0; i <= 8; i += 2) {
-            System.out.println(i);
+        for (i = 0; i < 8; i += 2) {
+            System.out.println(array[i]);
 
         }
 

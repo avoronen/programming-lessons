@@ -12,15 +12,25 @@ public class Task11 {
         array[5] = 6;
         array[6] = 7;
 
-        int sum = (array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6]);
+        int sum = 0;
+
+        for (int i = 0; i < array.length ; i++) {
+            sum += array[i];
+        }
 
         System.out.println(sum);
-
-
-
-
-
-
-
     }
 }
+
+        //int sum = (array[0] + array[1] + array[2] + array[3] + array[4] + array[5] + array[6]);
+
+        //System.out.println(sum);
+
+
+
+
+
+
+
+
+
