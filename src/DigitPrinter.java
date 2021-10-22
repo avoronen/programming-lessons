@@ -1,13 +1,11 @@
 
 public class DigitPrinter {
 
-    int number;
-    int r = 0;
     int digit = 1;
 
-    void printDigits() {
+    void printDigits(int number) {
 
-        while ((digit != r) && (number >= 1)) {
+        while ((number > 0)) {
 
             digit = number % 10;
             number = number / 10;

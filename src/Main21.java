@@ -6,9 +6,8 @@ public class Main21 {
 
         DigitPrinter number = new DigitPrinter();
 
-        number.printDigits();
+        number.printDigits(101);
 
-        System.out.println(number);
     }
 
 }

@@ -20,11 +20,13 @@ public class Main20 {
 
             System.out.println("Shop:" + name[i]);
             System.out.println(shops[i].benefit);
-            System.out.println();
-            System.out.println(sumbenefit);
+
+
 
 
         }
+
+        System.out.println(sumbenefit);
     }
 
 }
