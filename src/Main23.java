@@ -6,13 +6,16 @@ public class Main23 {
 
 
 
+
         for (int i = 0; i < 3; i++) {
             polygons[i] = new Polygon();
+            polygons[i].sides = 3;
 
             polygons[i].perimeter = polygons[i].showPerimeter();
 
-            polygons[i].showPerimeter();
 
+            System.out.println(polygons[i].sides);
+            System.out.println(polygons[i].perimeter);
         }
     }
 }

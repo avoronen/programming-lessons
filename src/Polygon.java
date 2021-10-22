@@ -2,7 +2,7 @@ public class Polygon {
 
     int perimeter;
 
-    int sides = 3;
+    int sides;
 
     int[] array;
 
