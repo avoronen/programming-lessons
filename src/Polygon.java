@@ -9,26 +9,24 @@ public class Polygon {
     int sidelength;
 
 
-    public int Polygon(int sides, int[] array) {
+    public Polygon(int sides, int[] array) {
 
         this.sides = 3;
 
         this.array = new int[]{3, 4, 5};
 
-        return perimeter;
 
     }
 
-    public int Polygon2(int sides, int sidelength) {
+    public Polygon(int sides, int sidelength) {
 
-        this.sides = 4;
+        this.sides = 3;
         this.sidelength = 5;
 
-        return perimeter;
     }
 
 
-    public void String() {
+    public Polygon() {
 
         System.out.println("Многоугольник не определен");
     }
@@ -36,19 +34,22 @@ public class Polygon {
 
     int showPerimeter() {
 
-        if (sides == 4) {
+        if (sides >= 3 && array != null) {
+            for(int i = 0; i < 3; i++) {
+
+                perimeter += array[i];
+
+            }
+
+        } else if(sidelength != 0) {
 
             perimeter = sides * sidelength;
 
-       } else if (sides == 3) {
-                perimeter = 3 + 4 +5;
-            } else {
+        } else {
+            System.out.println("Периметр неизвестен");
+        }
 
-                System.out.println("Периметр неизвестен");
-            }
-
-
-
+        System.out.println(perimeter);
 
         return perimeter;
 

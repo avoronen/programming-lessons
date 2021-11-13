@@ -1,21 +1,25 @@
+
+
 public class Main23 {
 
     public static void main(String[] args) {
 
         Polygon[] polygons = new Polygon[3];
+        int[] sidelength = {3,4,5};
+
+        polygons[0] = new Polygon(3, sidelength);
+
+        polygons[1] = new Polygon(3, 5);
+
+        polygons[2] = new Polygon();
+
+        polygons[0].showPerimeter();
+        polygons[1].showPerimeter();
+        polygons[2].showPerimeter();
 
 
 
 
-        for (int i = 0; i < 3; i++) {
-            polygons[i] = new Polygon();
-            polygons[i].sides = 3;
-
-            polygons[i].perimeter = polygons[i].showPerimeter();
-
-
-            System.out.println(polygons[i].sides);
-            System.out.println(polygons[i].perimeter);
         }
     }
-}
+
