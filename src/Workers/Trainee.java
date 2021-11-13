@@ -2,7 +2,7 @@ package Workers;
 
 public class Trainee extends Worker {
 
-    int decreasingCoefficient = 1;
+    int decreasingCoefficient;
 
     public Trainee (int decreasingCoefficient, int dailypayment) {
 

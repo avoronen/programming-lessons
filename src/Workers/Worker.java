@@ -2,9 +2,9 @@ package Workers;
 
 public class Worker {
 
-    int dailypayment = 100;
+    int dailypayment;
 
-    int days =10;
+    int days;
 
     public Worker() {
 

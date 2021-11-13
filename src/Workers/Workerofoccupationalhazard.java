@@ -3,7 +3,7 @@ package Workers;
 
 public class Workerofoccupationalhazard extends Worker {
 
-    int extrapayment = 20;
+    int extrapayment;
 
     public Workerofoccupationalhazard(int extrapayment, int dailypayment) {
 
