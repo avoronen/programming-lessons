@@ -17,7 +17,7 @@ public class Worker {
     }
 
 
-    public void calculateSalary() {
+    public void calculateSalary(int days) {
         int Salary = dailypayment * days;
 
         System.out.println(Salary);

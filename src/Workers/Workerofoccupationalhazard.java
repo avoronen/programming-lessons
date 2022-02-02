@@ -11,12 +11,9 @@ public class Workerofoccupationalhazard extends Worker {
         this.dailypayment = dailypayment;
     }
 
-    public Workerofoccupationalhazard() {
-
-    }
 
     @Override
-    public void calculateSalary() {
+    public void calculateSalary(int days) {
 
         int Salary = dailypayment * days + extrapayment;
 

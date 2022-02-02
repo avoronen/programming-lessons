@@ -18,17 +18,18 @@ public class Trainee extends Worker {
 
     }
 
-    public Trainee() {
-
-    }
 
     @Override
-    public void calculateSalary() {
+    public void calculateSalary(int days) {
 
         int Salary = dailypayment * days * decreasingCoefficient;
 
         System.out.println(Salary);
 
+        super.calculateSalary(5);
+
 
     }
+
+
 }

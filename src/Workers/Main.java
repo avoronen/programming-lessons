@@ -7,9 +7,9 @@ public class Main {
 
         Worker workers = new Worker();
 
-        Workerofoccupationalhazard hazard = new Workerofoccupationalhazard();
+        Workerofoccupationalhazard hazard = new Workerofoccupationalhazard(300, 100);
 
-        Trainee trainee = new Trainee();
+        Trainee trainee = new Trainee(1, 50);
 
         workers.dailypayment = 100;
         workers.days = 10;
@@ -22,9 +22,9 @@ public class Main {
         trainee.days = 10;
         trainee.decreasingCoefficient = 1;
 
-      workers.calculateSalary();
-      hazard.calculateSalary();
-      trainee.calculateSalary();
+      workers.calculateSalary(10);
+      hazard.calculateSalary(10);
+      trainee.calculateSalary(10);
 
 
         // Worker[] workers = new Worker[4];
